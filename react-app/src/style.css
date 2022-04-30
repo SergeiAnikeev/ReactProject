@@ -7,6 +7,7 @@ body {
     font-family: Inter, sans-serif;
     background-color: #282D35;
     height: 100vh;
+
 }
 
 nav {
@@ -38,7 +39,10 @@ nav > img {
 main {
     padding: 57px 27px;
     color: white;
-
+    background-image: url(./images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
 }
 
 .main-title {
@@ -59,4 +63,9 @@ main {
 
 footer{
     color: white;
+}
+
+.main-facts > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
 }
